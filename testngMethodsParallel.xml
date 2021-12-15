@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods"  thread-count="5">
+	<test name="TestRunner1" thread-count="5" >
+		<classes>
+			<class name="com.Vtiger.TC.TC003_CreateContactWithOrg" />
+		</classes>
+	</test> 
+	<!--  <test name="TestRunner2" thread-count="5" parallel="methods">
+		<classes>
+			<class name="com.Vtiger.TC.TC001_CreateOrganizationTest"/>
+		</classes>
+	</test>  -->
+</suite> <!-- Suite -->

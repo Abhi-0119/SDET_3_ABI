@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.Vtiger.genericUtil.ListnersImplementation"></listener>
+	</listeners>
+	<test name="TestRunner1">
+		<classes>
+			<class name="com.Vtiger.TC.TC003_CreateContactWithOrgTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestRunner2">
+		<classes>
+			<class name="com.Vtiger.TC.TC002_CreateOrgwithDropDownTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestRunner3">
+		<classes>
+			<class name="com.Vtiger.TC.TC001_CreateOrganizationTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
